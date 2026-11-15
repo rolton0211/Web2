@@ -1,0 +1,52 @@
+h1::first-letter{
+    color: green;
+    background-color: aqua;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+h1::first-line{
+    background-color:rgb(189, 0, 0)
+}
+h1::before{
+    content:"|";
+
+    color: rgb(248, 133, 133);
+    font-size: 50px;
+
+}
+h1::after{
+    content:"|";
+
+    color: red;
+    font-size: 50px;
+
+}
+img:after{
+    content: "кот";
+
+    color: red
+}
+p:first-letter{
+    color: rgb(68, 155, 68);
+    background-color: rgb(195, 84, 84);
+    border: 3px solid rgb(196, 174, 3);
+}
+.block{
+    width: 100px;
+    height: 100px;
+
+    background-color: greenyellow;
+
+}
+p{
+    margin-bottom: 100px;
+}
+.button{
+    padding: 20px 40px 20px 40px;
+}
+img{
+    filter: blur(50px);
+}
+img:hover{
+    filter: blur(0px);
+}
